@@ -1,0 +1,9 @@
+.box {
+  border-bottom: 1px solid #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.box:last-child {
+  border-bottom: 0;
+}

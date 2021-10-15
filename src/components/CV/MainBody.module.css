@@ -1,0 +1,6 @@
+.main-body {
+  padding: 24px;
+  border: 5px solid royalblue;
+  border-left: 0;
+  flex-basis: 70%;
+}

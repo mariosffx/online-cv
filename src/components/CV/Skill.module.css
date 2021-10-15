@@ -1,0 +1,9 @@
+.skill {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+
+.skill svg {
+  padding: 4px;
+}
