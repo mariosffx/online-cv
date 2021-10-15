@@ -1,7 +1,7 @@
 import React from 'react';
-import Ruler from '../UI/Ruler';
+import Ruler from '../../UI/Ruler';
 import Article from './Article';
-import Icon from '../UI/Icon';
+import Icon from '../../UI/Icon';
 import classes from './Experience.module.css';
 
 const Experience = ({ title, icon, items }) => {
@@ -15,7 +15,9 @@ const Experience = ({ title, icon, items }) => {
   return (
     <div className={classes['experience-container']}>
       <h2 className={classes['experience-title']}>
-        <Icon icon={icon} />
+        <div className={classes['experience-title-icon']}>
+          <Icon icon={icon} />
+        </div>
         <div>{title}</div>
       </h2>
       {content}

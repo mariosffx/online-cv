@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../UI/Icon';
+import Icon from '../../UI/Icon';
 import classes from './Skill.module.css';
 
 const Skill = ({ icon, text, details }) => {

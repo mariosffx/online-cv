@@ -16,7 +16,14 @@
   align-items: center;
 }
 
-.experience-title > svg {
+.experience-title-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.experience-title svg {
   font-size: 1.2em;
   text-align: center;
 }

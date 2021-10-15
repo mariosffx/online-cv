@@ -4,7 +4,7 @@ import classes from './SidePart.module.css';
 import SideBox from './SideBox';
 
 import sidePartData from './side-part-data';
-import IconWithText from '../UI/IconWithText';
+import IconWithText from '../../UI/IconWithText';
 import Skill from './Skill';
 
 const SidePart = () => {
