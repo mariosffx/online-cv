@@ -46,7 +46,7 @@ const Icon = ({ icon }) => {
       return <FaCode />;
     case 'stack':
       return <FaLaptopCode />;
-    case 'help':
+    case 'volunteer':
       return <FaHandHoldingHeart />;
     case 'book':
       return <FaBook />;

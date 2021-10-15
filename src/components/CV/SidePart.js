@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './SidePart.module.css';
 
-import Box from '../UI/Box';
+import SideBox from './SideBox';
 
 import sidePartData from './side-part-data';
 import IconWithText from '../UI/IconWithText';
@@ -25,22 +25,22 @@ const SidePart = () => {
 
   return (
     <aside className={classes['side-part']}>
-      <Box>
+      <SideBox>
         <div className={classes.name}>
           <h2>{firstName}</h2>
           <h3>{lastName}</h3>
           <h1>{profession}</h1>
         </div>
-      </Box>
-      <Box>{contactDetailItems}</Box>
-      {/* <Box>
+      </SideBox>
+      <SideBox>{contactDetailItems}</SideBox>
+      {/* <SideBox>
         <IconWithText icon="language" type="title" text="Languages" />
         {languageItems}
-      </Box> */}
-      <Box>
+      </SideBox> */}
+      <SideBox>
         <IconWithText icon="stack" type="title" text="Skills" />
         {skillItems}
-      </Box>
+      </SideBox>
     </aside>
   );
 };

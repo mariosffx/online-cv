@@ -1,29 +1,26 @@
 import React from 'react';
+import Ruler from '../UI/Ruler';
+import Article from './Article';
+import Icon from '../UI/Icon';
 import classes from './Experience.module.css';
 
-const Experience = ({ title, where, when, listTitle, list }) => {
-  const listItems =
-    list?.map((item) => <li key="item">{item}</li>) || undefined;
+const Experience = ({ title, icon, items }) => {
+  const content = items.map((item) => (
+    <div className={classes.experience}>
+      <Ruler />
+      <Article key={`${item.title}_${item.where}`} {...item} />
+    </div>
+  ));
 
   return (
-    <section className={classes.experience}>
-      <div className={classes['experience-ruler']} />
-      <div className={classes['experience-content']}>
-        <h3>
-          <div className={classes['experience-header']}>
-            <div className={classes['experience-title']}>{title}</div>
-            {when && <div>{when}</div>}
-          </div>
-          <div>{where}</div>
-        </h3>
-        {list && (
-          <>
-            <h4>{listTitle}</h4>
-            <ul className={classes['experience-list']}>{listItems}</ul>
-          </>
-        )}
-      </div>
-    </section>
+    <div className={classes['experience-container']}>
+      <h2 className={classes['experience-title']}>
+        <Icon icon={icon} />
+        <div>{title}</div>
+      </h2>
+      {content}
+    </div>
   );
 };
+
 export default Experience;

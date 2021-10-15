@@ -1,0 +1,16 @@
+.article-content {
+  padding-bottom: 8px;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-title {
+  color: royalblue;
+}
+
+.article-list {
+  padding-left: 24px;
+}

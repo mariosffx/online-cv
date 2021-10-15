@@ -1,32 +1,22 @@
+.experience-container {
+  min-width: 100%;
+  padding-bottom: 16px;
+  border-color: black;
+  border-bottom: 2px;
+  box-shadow: 1px 1px 1px black;
+}
+
 .experience {
   display: flex;
-  align-items: stretch;
-}
-
-.experience-ruler::before {
-  content: 'O';
-  text-align: center;
-}
-.experience-ruler {
-  border: 1px solid black;
-  margin-right: 8px;
-  min-height: 100%;
-  padding-bottom: 16px;
-  text-align: center;
-}
-.experience-content {
-  padding-bottom: 8px;
-}
-
-.experience-header {
-  display: flex;
-  justify-content: space-between;
+  min-width: 100%;
 }
 
 .experience-title {
-  color: royalblue;
+  display: flex;
+  align-items: center;
 }
 
-.experience-list {
-  padding-left: 24px;
+.experience-title > svg {
+  font-size: 1.2em;
+  text-align: center;
 }
