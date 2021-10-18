@@ -9,16 +9,11 @@ const Article = ({ title, where, when, listTitle, list }) => {
       <h3>
         <div className={classes['article-header']}>
           <div className={classes['article-title']}>{title}</div>
-          {when && <div>{when}</div>}
+          {when && <div className={classes['article-when']}>{when}</div>}
         </div>
         <div>{where}</div>
       </h3>
-      {list && (
-        <>
-          <h4>{listTitle}</h4>
-          <ul className={classes['article-list']}>{listItems}</ul>
-        </>
-      )}
+      {list && <ul className={classes['article-list']}>{listItems}</ul>}
     </article>
   );
 };

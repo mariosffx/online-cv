@@ -1,29 +1,23 @@
-.experience-container {
-  min-width: 100%;
-  padding-bottom: 16px;
-  border-color: black;
-  border-bottom: 2px;
-  box-shadow: 1px 1px 1px black;
+.experience-table {
+  width: 100%;
 }
 
-.experience {
-  display: flex;
-  min-width: 100%;
-}
-
-.experience-title {
-  display: flex;
-  align-items: center;
-}
-
-.experience-title-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
-}
-
-.experience-title svg {
-  font-size: 1.2em;
+.head-icon {
   text-align: center;
+}
+
+.experience-table td {
+  text-align: left;
+}
+
+.experience-table th {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+}
+
+.table-cell-ruler {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: stretch; */
 }

@@ -5,23 +5,31 @@ import Icon from '../../UI/Icon';
 import classes from './Experience.module.css';
 
 const Experience = ({ title, icon, items }) => {
-  const content = items.map((item) => (
-    <div className={classes.experience}>
-      <Ruler />
-      <Article key={`${item.title}_${item.where}`} {...item} />
-    </div>
+  const contentTableBody = items.map((item) => (
+    <tr key={`${item.title}_${item.where}`}>
+      <td className={classes['table-cell-ruler']}>
+        <Ruler />
+      </td>
+      <td className={classes.article}>
+        <Article {...item} />
+      </td>
+    </tr>
   ));
 
   return (
-    <div className={classes['experience-container']}>
-      <h2 className={classes['experience-title']}>
-        <div className={classes['experience-title-icon']}>
-          <Icon icon={icon} />
-        </div>
-        <div>{title}</div>
-      </h2>
-      {content}
-    </div>
+    <table className={classes['experience-table']}>
+      <thead>
+        <th>
+          <h2 className={classes['head-icon']}>
+            <Icon icon={icon} />
+          </h2>
+        </th>
+        <th>
+          <h2>{title}</h2>
+        </th>
+      </thead>
+      <tbody>{contentTableBody}</tbody>
+    </table>
   );
 };
 

@@ -7,7 +7,7 @@ const mainPartData = {
       items: [
         {
           title: 'Front-End Engineer with React.JS',
-          where: 'Intrasoft International | Athens, Greece',
+          where: 'Intrasoft International | Athens, Greece (Remote)',
           when: '1/2021 - present',
           listTitle: 'Achievements',
           list: [
@@ -22,7 +22,7 @@ const mainPartData = {
         },
         {
           title: 'Web Designer & Developer',
-          where: 'Freelancer | Worldwide',
+          where: 'Freelancer | Worldwide (Remote)',
           when: '9/2016 - present',
           listTitle: 'Services',
           list: [
@@ -58,9 +58,14 @@ const mainPartData = {
       icon: 'volunteer',
       items: [
         {
-          title: 'Webmaster, Council Member in IEEE University Student Branch',
-          where: 'University of West Attica',
+          title: 'Webmaster, Council Member',
+          where: 'IEEE University of West Attica Student Branch',
           when: '1/2020 - present',
+        },
+        {
+          title: 'Treasurer, Council Member',
+          where: 'ADHD Hellas',
+          when: '1/2017 - 6/2020',
         },
       ],
     },

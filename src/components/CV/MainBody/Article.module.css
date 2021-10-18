@@ -1,5 +1,8 @@
 .article-content {
+  padding-left: 5px;
+  padding-right: 5px;
   padding-bottom: 8px;
+  width: 70%;
 }
 
 .article-header {
@@ -9,6 +12,9 @@
 
 .article-title {
   color: royalblue;
+}
+
+.article-when {
 }
 
 .article-list {
