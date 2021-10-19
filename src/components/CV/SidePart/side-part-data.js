@@ -52,7 +52,7 @@ const sidePartData = {
     },
     {
       icon: 'design',
-      text: 'UI Libraries',
+      text: 'UI/UX Libraries',
       details: 'Chakra-UI, Material-UI, StyledComponents, CSS Modules',
     },
     {

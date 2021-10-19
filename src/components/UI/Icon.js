@@ -1,5 +1,6 @@
 import React from 'react';
 import { BiMessageRoundedDetail } from 'react-icons/bi';
+import { GiSkills } from 'react-icons/gi';
 import {
   FaPhoneAlt,
   FaLocationArrow,
@@ -23,6 +24,8 @@ import {
 
 const Icon = ({ icon }) => {
   switch (icon) {
+    case 'skill':
+      return <GiSkills />;
     case 'react':
       return <FaReact />;
     case 'quote':

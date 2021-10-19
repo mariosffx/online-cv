@@ -3,7 +3,7 @@ import Article from './Article';
 import Icon from '../../UI/Icon';
 import classes from './Experience.module.css';
 
-const Experience = ({ title, icon, items }) => {
+const Experience = ({ title, icon, items, type }) => {
   const articles = items.map((article) => (
     <Article key={article.title} {...article} />
   ));
