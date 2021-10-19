@@ -26,9 +26,11 @@ const mainPartData = {
           when: '9/2016 - present',
           listTitle: 'Services',
           list: [
+            'Restful APIs with Node.JS',
             'Linux System Administration',
-            'Staic/Dynamic Web Design with WordPress',
-            'Web Hosting on Shared Hosting or Dedicated Servers',
+            'Automation Testing & Web Scraping with Puppeteer.JS',
+            'Web/App Hosting on Shared Hosting or Dedicated Servers',
+            'Staic/Dynamic Web Design and Development with WordPress',
           ],
         },
       ],
@@ -38,17 +40,19 @@ const mainPartData = {
       icon: 'education',
       items: [
         {
-          title:
-            "Bachelor's Degree in Industry Design & Production Engineering",
+          title: 'BSc in Industry Design & Production Engineering',
+          when: '10/2013 - 06/2018',
           where: 'University of West Attica | Athens, Greece',
         },
         {
-          title: 'Erasmus International+ in Social Sciences',
+          title: 'Erasmus+ International in Social Sciences',
+          when: '1/2019 - 05/2019',
           where:
             'Vladivostok State University of Economics and Service | Vladivostok, Russia',
         },
         {
           title: 'Vocational Training in IT Support Engineering',
+          when: '10/2009 - 06/2010',
           where: 'IEK Egaleo | Athens, Greece',
         },
       ],

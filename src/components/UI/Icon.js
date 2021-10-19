@@ -18,10 +18,13 @@ import {
   FaDesktop,
   FaDatabase,
   FaTools,
+  FaReact,
 } from 'react-icons/fa';
 
 const Icon = ({ icon }) => {
   switch (icon) {
+    case 'react':
+      return <FaReact />;
     case 'quote':
       return <FaQuoteLeft />;
     case 'phone':

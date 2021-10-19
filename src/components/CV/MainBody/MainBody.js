@@ -3,7 +3,7 @@ import Experience from './Experience';
 import mainPartData from './main-part-data';
 import classes from './MainBody.module.css';
 
-const MainBody = (props) => {
+const MainBody = () => {
   const { experiences } = mainPartData;
   const experienceItems = experiences.map((experience) => (
     <Experience key={experience.title} {...experience} />

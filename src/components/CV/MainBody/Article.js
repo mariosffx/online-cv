@@ -5,14 +5,12 @@ const Article = ({ title, where, when, listTitle, list }) => {
     list?.map((item) => <li key="item">{item}</li>) || undefined;
 
   return (
-    <article className={classes['article-content']}>
-      <h3>
-        <div className={classes['article-header']}>
-          <div className={classes['article-title']}>{title}</div>
-          {when && <div className={classes['article-when']}>{when}</div>}
-        </div>
-        <div>{where}</div>
-      </h3>
+    <article className={classes.article}>
+      <div className={classes['article-title-container']}>
+        <h3 className={classes['article-title']}>{title}</h3>
+        <div className={classes.when}>{when}</div>
+      </div>
+      <h4>{where}</h4>
       {list && <ul className={classes['article-list']}>{listItems}</ul>}
     </article>
   );

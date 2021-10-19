@@ -1,6 +1,8 @@
 .main-body {
-  padding: 24px;
+  padding: 8px;
   border: 5px solid royalblue;
   border-left: 0;
   flex-basis: 70%;
+  display: flex;
+  flex-wrap: wrap;
 }

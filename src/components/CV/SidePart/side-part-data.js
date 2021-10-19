@@ -46,10 +46,14 @@ const sidePartData = {
   ],
   skills: [
     {
-      icon: 'design',
+      icon: 'react',
       text: 'Front-End',
-      details:
-        'React.JS, Next.JS, Gatsby.JS, Chakra-UI, Material-UI, Redux, Axios, Jest',
+      details: 'React.JS, Next.JS, Gatsby.JS, Redux, Axios, Jest',
+    },
+    {
+      icon: 'design',
+      text: 'UI Libraries',
+      details: 'Chakra-UI, Material-UI, StyledComponents, CSS Modules',
     },
     {
       icon: 'server',
@@ -69,7 +73,7 @@ const sidePartData = {
     {
       icon: 'tools',
       text: 'Tools',
-      details: 'Swagger, Confluence, Agile, DBeaver, Postman',
+      details: 'Swagger, Confluence, Agile, DBeaver, Postman, VSCode, WebStorm',
     },
     {
       icon: 'os',
