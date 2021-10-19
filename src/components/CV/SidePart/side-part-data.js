@@ -73,12 +73,25 @@ const sidePartData = {
     {
       icon: 'tools',
       text: 'Tools',
-      details: 'Swagger, Confluence, Agile, DBeaver, Postman, VSCode, WebStorm',
+      details:
+        'Git, Swagger, Confluence, Agile, DBeaver, Postman, VSCode, WebStorm',
     },
     {
       icon: 'os',
       text: 'Operating Systems',
       details: 'Windows, Linux (Preferred)',
+    },
+  ],
+  miscSkills: [
+    {
+      icon: 'drive',
+      text: `Driver's License`,
+      details: 'A, B',
+    },
+    {
+      icon: 'languages',
+      text: 'Languages',
+      details: 'English (Proficient), Greek (Native), Russian (Basic)',
     },
   ],
 };

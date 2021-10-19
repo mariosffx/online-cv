@@ -1,5 +1,4 @@
 const mainPartData = {
-  introduction: `Software Engineer with over 5 years of experience. Fluent in React & TypeScript`,
   experiences: [
     {
       title: 'Introduction',
@@ -8,7 +7,7 @@ const mainPartData = {
         {
           type: 'paragraph',
           paragraph:
-            'Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! Hello World! ',
+            'Software Engineer with at least 5 years of Professional Experience in Web Technologies & JAMStack. Expert working with APIs, Microservices, Databases. Greatly Focused on React.JS with TypeScript.',
         },
       ],
     },
@@ -43,29 +42,6 @@ const mainPartData = {
             'Web/App Hosting on Shared Hosting or Dedicated Servers',
             'Staic/Dynamic Web Design and Development with WordPress',
           ],
-        },
-      ],
-    },
-    {
-      title: 'Education',
-      icon: 'education',
-      items: [
-        {
-          title:
-            "Bachelor's Degree in Industry Design & Production Engineering",
-          // when: '10/2013 - present',
-          where: 'University of West Attica | Athens, Greece',
-        },
-        {
-          title: 'Erasmus+ International in Social Sciences',
-          // when: '1/2019 - 05/2019',
-          where:
-            'Vladivostok State University of Economics and Service | Vladivostok, Russia',
-        },
-        {
-          title: 'Vocational Training in IT Support Engineering',
-          // when: '10/2009 - 06/2010',
-          where: 'IEK Egaleo | Athens, Greece',
         },
       ],
     },
@@ -201,10 +177,28 @@ const mainPartData = {
             },
           ],
         },
+      ],
+    },
+    {
+      title: 'Education',
+      icon: 'education',
+      items: [
         {
-          title: 'Treasurer, Council Member',
-          where: 'ADHD Hellas',
-          when: '1/2017 - 6/2020',
+          title:
+            "Bachelor's Degree in Industry Design & Production Engineering",
+          // when: '10/2013 - present',
+          where: 'University of West Attica | Athens, Greece',
+        },
+        {
+          title: 'Erasmus+ International in Social Sciences',
+          // when: '1/2019 - 05/2019',
+          where:
+            'Vladivostok State University of Economics and Service | Vladivostok, Russia',
+        },
+        {
+          title: 'Vocational Training in IT Support Engineering',
+          // when: '10/2009 - 06/2010',
+          where: 'IEK Egaleo | Athens, Greece',
         },
       ],
     },

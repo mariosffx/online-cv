@@ -1,5 +1,7 @@
 import React from 'react';
 import { BiMessageRoundedDetail } from 'react-icons/bi';
+import { IoLanguage } from 'react-icons/io5';
+import { MdOutlineDriveEta, MdMiscellaneousServices } from 'react-icons/md';
 import { GiSkills } from 'react-icons/gi';
 import {
   FaPhoneAlt,
@@ -24,6 +26,12 @@ import {
 
 const Icon = ({ icon }) => {
   switch (icon) {
+    case 'miscSkills':
+      return <MdMiscellaneousServices />;
+    case 'drive':
+      return <MdOutlineDriveEta />;
+    case 'languages':
+      return <IoLanguage />;
     case 'skill':
       return <GiSkills />;
     case 'react':

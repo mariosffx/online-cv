@@ -6,17 +6,29 @@ const Article = ({ title, where, when, list, type, paragraph }) => {
   }
 
   if (type === 'skills') {
-    const skillItems = list.map(({ link, title, where }) => (
-      <li key={link}>
-        <a href={link} target="_blank" rel="norefereer">
-          {title}, {where}
-        </a>
-      </li>
+    const skillItems = list.map(({ link, title, when, where }) => (
+      <tr className={classes['skill-tree']} key={link}>
+        <td>- </td>
+        <td>
+          <a href={link} target="_blank" rel="noreferrer">
+            {title}
+          </a>
+        </td>
+        <td>{where}</td>
+        <td>{when}</td>
+      </tr>
     ));
     return (
-      <article className={classes.article}>
-        <ul className={classes['article-list']}>{skillItems}</ul>
-      </article>
+      <table className={classes.article}>
+        <thead>
+          <tr className={classes['table-heading']}>
+            <th colSpan={2}>Title</th>
+            <th>Platform</th>
+            <th>Date Issued</th>
+          </tr>
+        </thead>
+        <tbody>{skillItems}</tbody>
+      </table>
     );
   }
 
