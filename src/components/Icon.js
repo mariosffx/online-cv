@@ -17,12 +17,8 @@ import {
   FaBriefcase,
   FaQuoteLeft,
   FaBook,
-  FaPaintBrush,
-  FaServer,
   FaCode,
   FaDesktop,
-  FaDatabase,
-  FaTools,
   FaReact,
 } from 'react-icons/fa';
 
