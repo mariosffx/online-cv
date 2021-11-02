@@ -63,7 +63,7 @@ const sidePartData = {
     {
       icon: 'code',
       text: 'Programming Languages',
-      details: 'JavaScript, TypeScript, Python',
+      details: 'TypeScript, JavaScript, Python',
     },
     {
       icon: 'db',
@@ -79,7 +79,7 @@ const sidePartData = {
     {
       icon: 'os',
       text: 'Operating Systems',
-      details: 'Windows, Linux (Preferred)',
+      details: 'Linux, Windows',
     },
     {
       icon: 'miscComp',

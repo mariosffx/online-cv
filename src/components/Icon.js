@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiMessageRoundedDetail } from 'react-icons/bi';
 import { IoLanguage, IoLogoNodejs } from 'react-icons/io5';
-import { SiMaterialui, SiPostgresql } from 'react-icons/si';
+import { SiMaterialui, SiPostgresql, SiTypescript } from 'react-icons/si';
 import { MdOutlineDriveEta, MdMiscellaneousServices } from 'react-icons/md';
 import { GiSkills } from 'react-icons/gi';
 import { DiGitBranch } from 'react-icons/di';
@@ -17,8 +17,7 @@ import {
   FaBriefcase,
   FaQuoteLeft,
   FaBook,
-  FaCode,
-  FaDesktop,
+  FaLinux,
   FaReact,
 } from 'react-icons/fa';
 
@@ -59,7 +58,7 @@ const Icon = ({ icon }) => {
     case 'server':
       return <IoLogoNodejs />;
     case 'code':
-      return <FaCode />;
+      return <SiTypescript />;
     case 'stack':
       return <FaLaptopCode />;
     case 'volunteer':
@@ -69,7 +68,7 @@ const Icon = ({ icon }) => {
     case 'bookmark':
       return <FaRegBookmark />;
     case 'os':
-      return <FaDesktop />;
+      return <FaLinux />;
     case 'db':
       return <SiPostgresql />;
     case 'tools':
