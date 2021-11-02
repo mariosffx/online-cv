@@ -1,6 +1,6 @@
 import React from 'react';
 import Article from './Article';
-import Icon from '../../UI/Icon';
+import Icon from './Icon';
 import classes from './Experience.module.css';
 
 const Experience = ({ title, icon, items, type }) => {

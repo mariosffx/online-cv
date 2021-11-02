@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from './CV.module.css';
 
-import MainBody from './MainBody/MainBody';
-import SidePart from './SidePart/SidePart';
+import MainBody from './MainBody';
+import SidePart from './SidePart';
 
 const CV = () => {
   return (

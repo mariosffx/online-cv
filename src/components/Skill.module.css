@@ -8,3 +8,8 @@
   margin-right: 8px;
   font-size: 24px;
 }
+@media print {
+  .skill {
+    padding: 4px;
+  }
+}

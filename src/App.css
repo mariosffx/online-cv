@@ -10,7 +10,18 @@ body {
 }
 
 @media print {
+  html {
+    min-height: 100vh;
+    min-width: 100vw;
+    max-height: 100vh;
+    max-width: 100vh;
+    height: 100vh;
+    width: 100vw;
+  }
+
   body {
-    font-size: 0.8rem !important;
+    height: 100%;
+    font-size: 0.62em;
+    width: 100%;
   }
 }

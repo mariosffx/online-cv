@@ -20,3 +20,13 @@
   color: royalblue;
   text-decoration: underline;
 }
+
+@media print {
+  .icon-with-text {
+    padding-bottom: 4px;
+  }
+
+  .icon-with-text svg {
+    padding: 2px;
+  }
+}

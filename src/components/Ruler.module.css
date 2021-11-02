@@ -9,3 +9,9 @@
   text-align: center;
   margin: auto;
 }
+
+@media print {
+  .ruler {
+    padding: 8px;
+  }
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './SidePart.module.css';
 import SideBox from './SideBox';
-import sidePartData from './side-part-data';
-import IconWithText from '../../UI/IconWithText';
+import sidePartData from '../assets/data/side-part-data';
+import IconWithText from './IconWithText';
 import Skill from './Skill';
-import profilePicture from '../../../assets/imgs/profile_pic.jfif';
+import profilePicture from '../assets/imgs/profile_pic.jfif';
 
 const SidePart = () => {
   const {
@@ -51,7 +51,7 @@ const SidePart = () => {
         {skillItems}
       </SideBox>
       <SideBox>
-        <IconWithText icon="miscSkills" type="title" text="Misc Skills" />
+        <IconWithText icon="miscSkills" type="title" text="Misc. Skills" />
         {miscSkillItems}
       </SideBox>
     </aside>

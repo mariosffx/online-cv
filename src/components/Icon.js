@@ -1,8 +1,10 @@
 import React from 'react';
 import { BiMessageRoundedDetail } from 'react-icons/bi';
-import { IoLanguage } from 'react-icons/io5';
+import { IoLanguage, IoLogoNodejs } from 'react-icons/io5';
+import { SiMaterialui, SiPostgresql } from 'react-icons/si';
 import { MdOutlineDriveEta, MdMiscellaneousServices } from 'react-icons/md';
 import { GiSkills } from 'react-icons/gi';
+import { DiGitBranch } from 'react-icons/di';
 import {
   FaPhoneAlt,
   FaLocationArrow,
@@ -24,8 +26,12 @@ import {
   FaReact,
 } from 'react-icons/fa';
 
+import { AiFillCodeSandboxCircle } from 'react-icons/ai';
+
 const Icon = ({ icon }) => {
   switch (icon) {
+    case 'miscComp':
+      return <AiFillCodeSandboxCircle />;
     case 'miscSkills':
       return <MdMiscellaneousServices />;
     case 'drive':
@@ -53,9 +59,9 @@ const Icon = ({ icon }) => {
     case 'education':
       return <FaUniversity />;
     case 'design':
-      return <FaPaintBrush />;
+      return <SiMaterialui />;
     case 'server':
-      return <FaServer />;
+      return <IoLogoNodejs />;
     case 'code':
       return <FaCode />;
     case 'stack':
@@ -69,9 +75,9 @@ const Icon = ({ icon }) => {
     case 'os':
       return <FaDesktop />;
     case 'db':
-      return <FaDatabase />;
+      return <SiPostgresql />;
     case 'tools':
-      return <FaTools />;
+      return <DiGitBranch />;
     default:
       return <div>{icon}</div>;
   }

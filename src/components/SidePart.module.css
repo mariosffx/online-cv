@@ -10,10 +10,6 @@
   align-content: center;
 }
 
-.side-part:hover {
-  border: 4px solid #fada5e;
-}
-
 .name {
   text-align: center;
 }
@@ -47,5 +43,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media print {
+  .side-part {
+    padding: 4px 12px;
   }
 }

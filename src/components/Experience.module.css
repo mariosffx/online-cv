@@ -16,3 +16,13 @@
 .experience-title {
   padding: 8px;
 }
+
+@media print {
+  .icon {
+    padding: 4px;
+  }
+
+  .experience-title {
+    padding: 4px;
+  }
+}

@@ -53,7 +53,7 @@ const sidePartData = {
     {
       icon: 'design',
       text: 'UI/UX Libraries',
-      details: 'Chakra-UI, Material-UI, StyledComponents, CSS Modules',
+      details: 'Material-UI, Chakra-UI, Styled-Components',
     },
     {
       icon: 'server',
@@ -68,18 +68,23 @@ const sidePartData = {
     {
       icon: 'db',
       text: 'Databases',
-      details: 'MariaDB, MongoDB, Firebase, GraphQL',
+      details: 'PostgreSQL, MySQL, MongoDB, Firebase, GraphQL',
     },
     {
       icon: 'tools',
       text: 'Tools',
       details:
-        'Git, Swagger, Confluence, Agile, DBeaver, Postman, VSCode, WebStorm',
+        'Git, Docker, Swagger, Confluence, Agile, DBeaver, Postman, VSCode, WebStorm',
     },
     {
       icon: 'os',
       text: 'Operating Systems',
       details: 'Windows, Linux (Preferred)',
+    },
+    {
+      icon: 'miscComp',
+      text: 'Misc.',
+      details: 'HTML5, CSS3',
     },
   ],
   miscSkills: [
