@@ -195,11 +195,11 @@ const mainPartData = {
           where:
             'Vladivostok State University of Economics and Service | Vladivostok, Russia',
         },
-        {
-          title: 'Vocational Training in IT Support Engineering',
-          // when: '10/2009 - 06/2010',
-          where: 'IEK Egaleo | Athens, Greece',
-        },
+        // {
+        //   title: 'Vocational Training in IT Support Engineering',
+        //   // when: '10/2009 - 06/2010',
+        //   where: 'IEK Egaleo | Athens, Greece',
+        // },
       ],
     },
     {
