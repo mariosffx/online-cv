@@ -1,16 +1,16 @@
 const mainPartData = {
   experiences: [
-    {
-      title: 'Introduction',
-      icon: 'quote',
-      items: [
-        {
-          type: 'paragraph',
-          paragraph:
-            'Software Engineer with at least 5 years of Professional Experience in Web Technologies & JAMStack. Expert working with APIs, Microservices, Databases. Greatly Focused on React.JS with TypeScript.',
-        },
-      ],
-    },
+    // {
+    //   title: 'Introduction',
+    //   icon: 'quote',
+    //   items: [
+    //     {
+    //       type: 'paragraph',
+    //       paragraph:
+    //         'Software Engineer with at least 5 years of Professional Experience in Web Technologies & JAMStack. Expert working with APIs, Microservices, Databases. Greatly Focused on React.JS with TypeScript.',
+    //     },
+    //   ],
+    // },
     {
       title: 'Work Experience',
       icon: 'professional',
@@ -25,24 +25,24 @@ const mainPartData = {
             'Applied React with Hooks & React-Router to serve up a dynamic single page application',
             'Used Local & Session Storage for browser persistence to optimize user experiences',
             'Achieved > 80% unit test coverage using Jest',
-            'Presented > 90% of Front UI Features in Agile Sprint Demos/Reviews',
+            // 'Presented > 90% of Front UI Features in Agile Sprint Demos/Reviews',
             'Designed UI Components based on Adobe xD, Material UI and Material Documenation designs',
-            'Maintained DRY codebase and consistent user interface with reusable React Components',
+            // 'Maintained DRY codebase and consistent user interface with reusable React Components',
           ],
         },
-        {
-          title: 'Web Designer & Developer',
-          where: 'Freelancer | Worldwide (Remote)',
-          when: '9/2016 - present',
-          listTitle: 'Services',
-          list: [
-            'Restful APIs with Node.JS',
-            'Linux System Administration',
-            'Automation Testing & Web Scraping with Puppeteer.JS',
-            'Web/App Hosting on Shared Hosting or Dedicated Servers',
-            'Staic/Dynamic Web Design and Development with WordPress',
-          ],
-        },
+        // {
+        //   title: 'Web Designer & Developer',
+        //   where: 'Freelancer | Worldwide (Remote)',
+        //   when: '9/2016 - present',
+        //   listTitle: 'Services',
+        //   list: [
+        //     'Restful APIs with Node.JS',
+        //     'Linux System Administration',
+        //     'Automation Testing & Web Scraping with Puppeteer.JS',
+        //     'Web/App Hosting on Shared Hosting or Dedicated Servers',
+        //     'Staic/Dynamic Web Design and Development with WordPress',
+        //   ],
+        // },
       ],
     },
     {

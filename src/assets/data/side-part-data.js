@@ -38,43 +38,42 @@ const sidePartData = {
       text: 'English',
       details: 'Fluent - C2 - Proficiency',
     },
-    {
-      icon: 'russian',
-      text: 'Russian',
-      details: 'Elementary',
-    },
+    // {
+    //   icon: 'russian',
+    //   text: 'Russian',
+    //   details: 'Elementary',
+    // },
   ],
   skills: [
     {
       icon: 'react',
       text: 'Front-End',
-      details: 'React.JS, Next.JS, Gatsby.JS, Redux, Axios, Jest',
+      details: 'React.JS, Redux, Axios, Jest', // Next.JS, Gatsby.JS,
     },
     {
       icon: 'design',
       text: 'UI/UX Libraries',
-      details: 'Material-UI, Chakra-UI, Styled-Components',
+      details: 'Material-UI, CSS Modules', // Chakra-UI, Styled-Components
     },
     {
       icon: 'server',
       text: 'Back-End',
-      details: 'Node.JS, Express.JS',
+      details: 'NodeJS with Express',
     },
     {
       icon: 'code',
       text: 'Programming Languages',
-      details: 'TypeScript, JavaScript, Python',
+      details: 'TypeScript, JavaScript', // Python
     },
-    {
-      icon: 'db',
-      text: 'Databases',
-      details: 'PostgreSQL, MySQL, MongoDB, Firebase, GraphQL',
-    },
+    // {
+    //   icon: 'db',
+    //   text: 'Databases',
+    //   details: 'PostgreSQL, MySQL, MongoDB, Firebase, GraphQL',
+    // },
     {
       icon: 'tools',
       text: 'Tools',
-      details:
-        'Git, Docker, Swagger, Confluence, Agile, DBeaver, Postman, VSCode, WebStorm',
+      details: 'Git, DBeaver, Postman, VSCode', // Docker, Agile, Confluence, Swagger, WebStorm
     },
     {
       icon: 'os',
@@ -96,7 +95,7 @@ const sidePartData = {
     {
       icon: 'languages',
       text: 'Languages',
-      details: 'English (Proficient), Greek (Native), Russian (Basic)',
+      details: 'English (Proficient), Greek (Native)', // Russian
     },
   ],
 };
