@@ -206,11 +206,11 @@ const mainPartData = {
       title: 'Volunteer',
       icon: 'volunteer',
       items: [
-        {
-          title: 'Webmaster, Council Member',
-          where: 'IEEE University of West Attica Student Branch',
-          when: '1/2020 - present',
-        },
+        // {
+        //   title: 'Webmaster, Council Member',
+        //   where: 'IEEE University of West Attica Student Branch',
+        //   when: '1/2020 - present',
+        // },
         {
           title: 'Treasurer, Council Member',
           where: 'ADHD Hellas',
