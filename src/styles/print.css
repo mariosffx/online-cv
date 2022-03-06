@@ -1,0 +1,11 @@
+@media print {
+  .print-max-width-100 {
+    max-width: 100%;
+  }
+  .print-display-none {
+    display: none;
+  }
+  .print-border-width-0 {
+    border-width: 0;
+  }
+}

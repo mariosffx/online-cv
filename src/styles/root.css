@@ -1,0 +1,11 @@
+:root {
+  --primary-color: royalblue;
+  --dark-color: black;
+  --light-color: white;
+  --light-gray-color: #f1f1f1;
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 20px;
+}

@@ -1,15 +1,21 @@
+import { Subtitle } from '.';
+import { Divider, ListItem, SpaceBetween, Text } from '../UI';
+
 function Education({ title, school, location, dateFrom, dateTo }) {
   return (
-    <li>
-      <div className="display-flex justify-content-space-between">
-        <div className="flex-basis-80">
-          <strong>{title}</strong>, {school}, {location}
-        </div>
-        <div className="text-align-right">
+    <ListItem>
+      <SpaceBetween>
+        <Divider>
+          <Subtitle text={title} />
+          <Text>
+            {school}, {location}
+          </Text>
+        </Divider>
+        <Text>
           {dateFrom} - {dateTo}
-        </div>
-      </div>
-    </li>
+        </Text>
+      </SpaceBetween>
+    </ListItem>
   );
 }
 

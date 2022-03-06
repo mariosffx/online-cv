@@ -7,4 +7,6 @@ export { Technology } from './Technology';
 export { InvalidItem } from './InvalidItem';
 export { Certification } from './Certification';
 export { Interest } from './Interest';
-export { Container } from './Container';
+export { Title } from './Title';
+export { Ruler } from './Ruler';
+export { Subtitle } from './Subtitle';

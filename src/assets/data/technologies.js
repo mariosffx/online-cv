@@ -4,6 +4,11 @@ const items = [
     description: 'JavaScript, TypeScript, Java, Python',
   },
   {
+    title: 'Libraries & Frameworks',
+    description:
+      'React, Express, Puppeteer, Mongoose, Selenium, WordPress, MaterialUI, ChakraUI, Bootstrap, Tailwind',
+  },
+  {
     title: 'Technologies',
     description: 'MySQL, Git',
   },

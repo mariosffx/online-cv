@@ -1,8 +1,10 @@
+import { Center } from '../UI';
+
 function Resume({ children }) {
   return (
-    <div className="display-flex flex-direction-column justify-content-center align-items-center">
-      <div>{children}</div>
-    </div>
+    <Center className="max-width-50 margin-left-auto margin-right-auto background-color-light padding-32px border-radius-25px margin-y-24px border-color-dark border-width-1px border-style-solid border-width-1px print-max-width-100 print-border-width-0">
+      {children}
+    </Center>
   );
 }
 

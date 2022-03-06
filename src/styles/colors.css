@@ -1,0 +1,6 @@
+.color-dark { color: var(--dark-color); }
+.color-primary { color: var(--primary-color); }
+.border-color-primary { border-color: var(--primary-color); }
+.background-color-light { background-color: var(--light-color); }
+.background-color-primary { background-color: var(--primary-color); }
+.background-color-light-gray { background-color: var(--light-gray-color); }

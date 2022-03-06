@@ -1,10 +1,12 @@
+import { Subtitle } from './Subtitle';
+
 function WorkExperience({
   title,
   companyName,
   location,
   dateFrom,
   dateTo,
-  team,
+  position,
   items,
 }) {
   const listItems = items.map((item) => <li key={item}>{item}</li>);
@@ -12,8 +14,8 @@ function WorkExperience({
     <div className="margin-bottom-8">
       <div className="display-flex justify-content-space-between">
         <div className="flex-basis-30">
-          <h3 className="margin-0">{title}</h3>
-          <div>{team}</div>
+          <Subtitle text={title} className="margin-0" />
+          <div>{position}</div>
         </div>
         <div className="flex-basis-30 text-align-center">
           <h3 className="margin-0">{companyName}</h3>

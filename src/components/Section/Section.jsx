@@ -1,4 +1,5 @@
-import { Renderer, Container } from '../Section';
+import { Renderer, Ruler, Title } from '../Section';
+import { Container, Divider } from '../UI';
 
 function Section({ title = 'Check title', items = [], type }) {
   const sectionItems = items.map((item) => (
@@ -6,11 +7,11 @@ function Section({ title = 'Check title', items = [], type }) {
   ));
 
   return (
-    <div className="margin-y-4">
-      <h2 className="margin-0 color-primary">{title}</h2>
-      <hr className="margin-bottom-4 border-color-primary" />
+    <Divider className="margin-y-4">
+      <Title text={title} />
+      <Ruler />
       <Container type={type}>{sectionItems}</Container>
-    </div>
+    </Divider>
   );
 }
 

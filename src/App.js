@@ -1,4 +1,3 @@
-import './App.css';
 import { PersonalDetails, Resume, Section } from './components';
 import {
   personal_details,
@@ -9,18 +8,22 @@ import {
   certifications,
 } from './assets/data';
 import { interests } from './assets/data/interests';
+import { Navbar } from './components/Partials/Navbar/Navbar';
 
 function App() {
   return (
-    <Resume>
-      <PersonalDetails {...personal_details} />
-      <Section {...work_experience} />
-      <Section {...technologies} />
-      <Section {...education} />
-      <Section {...volunteer} />
-      <Section {...certifications} />
-      <Section {...interests} />
-    </Resume>
+    <div>
+      <Navbar />
+      <Resume>
+        <PersonalDetails {...personal_details} />
+        <Section {...work_experience} />
+        <Section {...technologies} />
+        <Section {...education} />
+        <Section {...volunteer} />
+        <Section {...certifications} />
+        <Section {...interests} />
+      </Resume>
+    </div>
   );
 }
 
