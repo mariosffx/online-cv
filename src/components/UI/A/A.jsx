@@ -1,7 +1,7 @@
-function A({ href, text }) {
+function A({ href, children }) {
   return (
     <a className="color-dark" href={href} target="_blank" rel="noreferrer">
-      {text}
+      {children}
     </a>
   );
 }

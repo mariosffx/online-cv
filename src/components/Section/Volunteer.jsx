@@ -1,12 +1,10 @@
-import { Text, ListItem, SpaceBetween } from '../UI';
+import { Text, ListItem, SpaceBetween, LinkOrText } from '../UI';
 
-function Volunteer({ title, location, dateFrom, dateTo }) {
+function Volunteer({ title, location, dateFrom, dateTo, link }) {
   return (
     <ListItem>
       <SpaceBetween>
-        <Text>
-          {title}, {location}
-        </Text>
+        <LinkOrText href={link} text={`${title}, ${location}`} />
         <Text>
           {dateFrom} - {dateTo}
         </Text>

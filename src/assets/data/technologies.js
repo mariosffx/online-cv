@@ -1,20 +1,17 @@
 const items = [
   {
-    title: 'Languages',
-    description: 'JavaScript, TypeScript, Java, Python',
+    title: 'Programming Languages',
+    description: 'JavaScript, TypeScript, CoffeeScript, Java, Python, SQL',
   },
   {
     title: 'Libraries & Frameworks',
     description:
-      'React, Express, Puppeteer, Mongoose, Selenium, WordPress, MaterialUI, ChakraUI, Bootstrap, Tailwind',
-  },
-  {
-    title: 'Technologies',
-    description: 'MySQL, Git',
+      'React, Next.js, Node.js, Express, Puppeteer, Mongoose, Sequelize, Backbone.js, Jest, Selenium, Material UI, Chakra UI, Bootstrap, Tailwind CSS, Whatever.js',
   },
   {
     title: 'Other',
-    description: 'Linux System Administration',
+    description:
+      'Git, GitLab, GitHub, Postman, VSCode, WebStorm, iTerm, zsh, Slack, Jira, Agile SCRUM, HTML5, CSS3, SCSS',
   },
 ];
 const technologies = {

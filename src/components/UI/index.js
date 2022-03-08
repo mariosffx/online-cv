@@ -7,3 +7,4 @@ export { Container } from './Container';
 export { HorizontalRuler } from './HorizontalRuler';
 export { Text } from './Text';
 export { Nav } from './Nav';
+export { LinkOrText } from './LinkOrText';

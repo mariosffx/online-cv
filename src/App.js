@@ -7,13 +7,11 @@ import {
   volunteer,
   certifications,
 } from './assets/data';
-import { interests } from './assets/data/interests';
-import { Navbar } from './components/Partials/Navbar/Navbar';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Resume>
         <PersonalDetails {...personal_details} />
         <Section {...work_experience} />
@@ -21,7 +19,6 @@ function App() {
         <Section {...education} />
         <Section {...volunteer} />
         <Section {...certifications} />
-        <Section {...interests} />
       </Resume>
     </div>
   );

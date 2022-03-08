@@ -2,7 +2,36 @@
   height: 2px;
 }
 
+//s Small
+@media (min-width: 640px) {
+  .sm-max-width-100 {
+    max-width: 100%;
+  }
+}
 
-.max-width-50 {
-  max-width: 50%;
+/* Medium */
+@media (min-width: 768px) {
+}
+
+/* Large */
+@media (min-width: 1024px) {
+}
+
+/* XL */
+@media (min-width: 1280px) {
+  .xl-max-width-50 {
+    max-width: 50%;
+  }
+
+  .xl-max-width-30 {
+    max-width: 30%;
+  }
+
+  .xl-max-width-960px {
+    max-width: 960px;
+  }
+}
+
+/* XXL */
+@media (min-width: 1536px) {
 }

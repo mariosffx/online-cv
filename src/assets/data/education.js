@@ -3,8 +3,8 @@ const items = [
     title: 'B.Sc. & M.Sc. Industrial Design and Production Engineering',
     school: 'University of West Attica',
     location: 'Athens, Greece',
-    dateFrom: 'Oct 2013',
-    dateTo: 'present',
+    dateFrom: '2013',
+    dateTo: '2020',
   },
   {
     title: 'Erasmus+ International in Social Sciences',

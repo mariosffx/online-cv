@@ -1,9 +1,11 @@
+import { Subtitle } from '.';
+
 function Technology({ title, description }) {
   return (
     <li>
-      <div className="display-flex justify-content-column">
-        <div className="flex-basis-20">
-          <strong>{title}:</strong>
+      <div>
+        <div>
+          <Subtitle text={title} />
         </div>
         <div>{description}</div>
       </div>

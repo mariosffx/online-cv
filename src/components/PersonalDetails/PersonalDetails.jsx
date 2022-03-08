@@ -1,3 +1,5 @@
+import { A, Divider } from './../UI';
+
 function PersonalDetails({
   firstName,
   lastName,
@@ -8,22 +10,28 @@ function PersonalDetails({
   linkedIn,
 }) {
   return (
-    <div className="margin-y-8">
-      <div className="display-flex justify-content-space-between margin-bottom-8">
-        <div className="align-self-flex-end">
-          <div>{location}</div>
-          <div>{linkedIn}</div>
-        </div>
+    <Divider className="margin-y-8">
+      <Divider className="display-flex justify-content-space-between margin-bottom-8px">
+        <Divider className="align-self-flex-end">
+          <Divider>{location}</Divider>
+          <Divider>
+            <A href={linkedIn.link}>{linkedIn.text}</A>
+          </Divider>
+        </Divider>
         <h1 className="text-align-center align-self-flex-start">
           {firstName} {lastName}
         </h1>
-        <div className="text-align-right align-self-flex-end">
-          <div>{telephone}</div>
-          <div>{email}</div>
-        </div>
-      </div>
-      <div>{introduction}</div>
-    </div>
+        <Divider className="text-align-right align-self-flex-end">
+          <Divider>
+            <A href={telephone.link}>{telephone.text} </A>
+          </Divider>
+          <Divider>
+            <A href={email.link}>{email.text}</A>
+          </Divider>
+        </Divider>
+      </Divider>
+      <Divider>{introduction}</Divider>
+    </Divider>
   );
 }
 
