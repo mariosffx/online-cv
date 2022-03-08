@@ -18,11 +18,11 @@ const items = [
   {
     title: 'Software Engineer',
     companyName: 'Netcompany Intrasoft',
-    link: 'https://www.netcompany-intrasoft.com/',
+    link: 'https://icarus.netcompany-intrasoft.com/',
     location: 'Paiania, Greece',
     dateFrom: 'Jan 2021',
     dateTo: 'Dec 2021',
-    position: 'Front-End Team',
+    position: 'ICARUS Project: Front-End',
     description:
       'Helped in the Software Development of an eGovernance application as a React Developer with Agile Scrum methodology',
     items: [

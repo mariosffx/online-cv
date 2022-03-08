@@ -15,7 +15,7 @@ const personal_details = {
     text: 'linkedin.com/in/mariosffx',
   },
   introduction:
-    'I am a passionate Information Technology enthusiast. My main focus is on Front-End engineering with a minor supportive role in Back-End with Node.js and Automation Testing with Java & Selenium.  I also love learning new technologies and provide tech assistance & teaching students in IT as a Tech Instructor Assistant.',
+    'I am a passionate Information Technology enthusiast. My main focus is on Front-End engineering with a minor supportive role in Back-End with Node.js and Automation Testing with Java & Selenium.  I also love learning new technologies and provide tech assistance & teaching in IT as a Tech Instructor Assistant.',
 };
 
 export { personal_details };
