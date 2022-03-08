@@ -36,7 +36,7 @@ const items = [
       'Utilized Redux to manage state for the complex application with deeply nested components',
       'Implemented React Lazy loading to Improve Perfomance of the application and user experience',
       'Maintained DRY codebase and consistent User Interface with React reusable Components & Hooks',
-      'Wrote documentation in Confluence for providing for providing information about new features and implementations',
+      'Wrote documentation in Confluence for providing information about new features and implementations',
       'Technologies & Tools used: React, Vanilla JavaScript, TypeScript, Jest, Material-UI, GitLab, Swagger, Postman, Docker',
     ],
   },
