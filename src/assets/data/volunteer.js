@@ -6,7 +6,7 @@ const items = [
     dateTo: 'present',
   },
   {
-    title: 'Teacher Assistant',
+    title: 'Tech Instructor Assistant',
     dateFrom: 'Oct 2019',
     dateTo: 'Oct 2020',
     location: 'Social Hackers Academy',
